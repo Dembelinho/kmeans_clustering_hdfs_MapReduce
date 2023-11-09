@@ -17,7 +17,20 @@ Le but de cet exercice est d’implémenter k-means en utilisant Hadoop MapReduc
 Ces blocs sont répartis sur plusieurs machines (nœuds) dans un cluster Hadoop.
 Cette répartition permet à HDFS de stocker et de traiter efficacement les fichiers volumineux.
 
+## Structure du projet
 
+```
+├───.idea
+└───src
+    ├───main
+    │   ├───java
+    │   │   └───org
+    │   │       └───example
+    │   └───resources
+    └───test
+        └───java
+
+```
 ## Implémenter k-means en utilisant Hadoop & MapReduce
 
 les étapes à suivre :
